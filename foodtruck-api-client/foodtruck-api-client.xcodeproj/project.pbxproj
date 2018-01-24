@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30478149200F10F0005A51BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30478148200F10F0005A51BC /* AppDelegate.swift */; };
+		3047814E200F10F0005A51BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3047814C200F10F0005A51BC /* Main.storyboard */; };
+		30478150200F10F0005A51BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3047814F200F10F0005A51BC /* Assets.xcassets */; };
+		30478153200F10F0005A51BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30478151200F10F0005A51BC /* LaunchScreen.storyboard */; };
+		30478160200F12D5005A51BC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047815F200F12D5005A51BC /* MainVC.swift */; };
+		30478162200F132D005A51BC /* FoodTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30478161200F132D005A51BC /* FoodTruck.swift */; };
+		30478164200F21D3005A51BC /* FoodTruckReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30478163200F21D3005A51BC /* FoodTruckReview.swift */; };
+		30478166200F2801005A51BC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30478165200F2801005A51BC /* DataService.swift */; };
+		30478168200F2A39005A51BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30478167200F2A39005A51BC /* Constants.swift */; };
+		3047816A200F5B39005A51BC /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30478169200F5B39005A51BC /* AuthService.swift */; };
+		3047816C201073B4005A51BC /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047816B201073B4005A51BC /* FoodTruckCell.swift */; };
+		3047816F2011BA0D005A51BC /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047816D2011BA0D005A51BC /* LogInVC.swift */; };
+		304781702011BA0D005A51BC /* LogInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3047816E2011BA0D005A51BC /* LogInVC.xib */; };
+		304781722011CBEF005A51BC /* AddTruckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304781712011CBEF005A51BC /* AddTruckVC.swift */; };
+		30478174201218A6005A51BC /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30478173201218A6005A51BC /* DetailsVC.swift */; };
+		3047817620186C81005A51BC /* ReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047817520186C81005A51BC /* ReviewsVC.swift */; };
+		3047817820186DB9005A51BC /* AddReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047817720186DB9005A51BC /* AddReviewVC.swift */; };
+		3047817A201870CD005A51BC /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30478179201870CD005A51BC /* ReviewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30478145200F10F0005A51BC /* foodtruck-api-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "foodtruck-api-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30478148200F10F0005A51BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3047814D200F10F0005A51BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3047814F200F10F0005A51BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30478152200F10F0005A51BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30478154200F10F0005A51BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3047815F200F12D5005A51BC /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		30478161200F132D005A51BC /* FoodTruck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruck.swift; sourceTree = "<group>"; };
+		30478163200F21D3005A51BC /* FoodTruckReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckReview.swift; sourceTree = "<group>"; };
+		30478165200F2801005A51BC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		30478167200F2A39005A51BC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		30478169200F5B39005A51BC /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		3047816B201073B4005A51BC /* FoodTruckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
+		3047816D2011BA0D005A51BC /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		3047816E2011BA0D005A51BC /* LogInVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogInVC.xib; sourceTree = "<group>"; };
+		304781712011CBEF005A51BC /* AddTruckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTruckVC.swift; sourceTree = "<group>"; };
+		30478173201218A6005A51BC /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		3047817520186C81005A51BC /* ReviewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsVC.swift; sourceTree = "<group>"; };
+		3047817720186DB9005A51BC /* AddReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewVC.swift; sourceTree = "<group>"; };
+		30478179201870CD005A51BC /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30478142200F10F0005A51BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3047813C200F10F0005A51BC = {
+			isa = PBXGroup;
+			children = (
+				30478147200F10F0005A51BC /* foodtruck-api-client */,
+				30478146200F10F0005A51BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30478146200F10F0005A51BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30478145200F10F0005A51BC /* foodtruck-api-client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30478147200F10F0005A51BC /* foodtruck-api-client */ = {
+			isa = PBXGroup;
+			children = (
+				30478154200F10F0005A51BC /* Info.plist */,
+				3047815E200F11E7005A51BC /* Model */,
+				3047815D200F11DC005A51BC /* View */,
+				3047815C200F11D4005A51BC /* Controller */,
+				3047815B200F11C8005A51BC /* Resources */,
+				3047815A200F11C1005A51BC /* Services */,
+			);
+			path = "foodtruck-api-client";
+			sourceTree = "<group>";
+		};
+		3047815A200F11C1005A51BC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				30478165200F2801005A51BC /* DataService.swift */,
+				30478169200F5B39005A51BC /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3047815B200F11C8005A51BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3047814F200F10F0005A51BC /* Assets.xcassets */,
+				30478167200F2A39005A51BC /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3047815C200F11D4005A51BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30478148200F10F0005A51BC /* AppDelegate.swift */,
+				3047815F200F12D5005A51BC /* MainVC.swift */,
+				3047816D2011BA0D005A51BC /* LogInVC.swift */,
+				304781712011CBEF005A51BC /* AddTruckVC.swift */,
+				30478173201218A6005A51BC /* DetailsVC.swift */,
+				3047817520186C81005A51BC /* ReviewsVC.swift */,
+				3047817720186DB9005A51BC /* AddReviewVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3047815D200F11DC005A51BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3047814C200F10F0005A51BC /* Main.storyboard */,
+				30478151200F10F0005A51BC /* LaunchScreen.storyboard */,
+				3047816E2011BA0D005A51BC /* LogInVC.xib */,
+				3047816B201073B4005A51BC /* FoodTruckCell.swift */,
+				30478179201870CD005A51BC /* ReviewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3047815E200F11E7005A51BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30478161200F132D005A51BC /* FoodTruck.swift */,
+				30478163200F21D3005A51BC /* FoodTruckReview.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30478144200F10F0005A51BC /* foodtruck-api-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30478157200F10F0005A51BC /* Build configuration list for PBXNativeTarget "foodtruck-api-client" */;
+			buildPhases = (
+				30478141200F10F0005A51BC /* Sources */,
+				30478142200F10F0005A51BC /* Frameworks */,
+				30478143200F10F0005A51BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "foodtruck-api-client";
+			productName = "foodtruck-api-client";
+			productReference = 30478145200F10F0005A51BC /* foodtruck-api-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3047813D200F10F0005A51BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Romax;
+				TargetAttributes = {
+					30478144200F10F0005A51BC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 30478140200F10F0005A51BC /* Build configuration list for PBXProject "foodtruck-api-client" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3047813C200F10F0005A51BC;
+			productRefGroup = 30478146200F10F0005A51BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30478144200F10F0005A51BC /* foodtruck-api-client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30478143200F10F0005A51BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30478153200F10F0005A51BC /* LaunchScreen.storyboard in Resources */,
+				30478150200F10F0005A51BC /* Assets.xcassets in Resources */,
+				304781702011BA0D005A51BC /* LogInVC.xib in Resources */,
+				3047814E200F10F0005A51BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30478141200F10F0005A51BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3047817820186DB9005A51BC /* AddReviewVC.swift in Sources */,
+				30478149200F10F0005A51BC /* AppDelegate.swift in Sources */,
+				30478160200F12D5005A51BC /* MainVC.swift in Sources */,
+				30478162200F132D005A51BC /* FoodTruck.swift in Sources */,
+				30478164200F21D3005A51BC /* FoodTruckReview.swift in Sources */,
+				30478166200F2801005A51BC /* DataService.swift in Sources */,
+				30478168200F2A39005A51BC /* Constants.swift in Sources */,
+				304781722011CBEF005A51BC /* AddTruckVC.swift in Sources */,
+				3047816A200F5B39005A51BC /* AuthService.swift in Sources */,
+				3047817620186C81005A51BC /* ReviewsVC.swift in Sources */,
+				3047816C201073B4005A51BC /* FoodTruckCell.swift in Sources */,
+				3047816F2011BA0D005A51BC /* LogInVC.swift in Sources */,
+				30478174201218A6005A51BC /* DetailsVC.swift in Sources */,
+				3047817A201870CD005A51BC /* ReviewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3047814C200F10F0005A51BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3047814D200F10F0005A51BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30478151200F10F0005A51BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30478152200F10F0005A51BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30478155200F10F0005A51BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30478156200F10F0005A51BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30478158200F10F0005A51BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EUN6557QNU;
+				INFOPLIST_FILE = "foodtruck-api-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "romax.foodtruck-api-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30478159200F10F0005A51BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EUN6557QNU;
+				INFOPLIST_FILE = "foodtruck-api-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "romax.foodtruck-api-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30478140200F10F0005A51BC /* Build configuration list for PBXProject "foodtruck-api-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30478155200F10F0005A51BC /* Debug */,
+				30478156200F10F0005A51BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30478157200F10F0005A51BC /* Build configuration list for PBXNativeTarget "foodtruck-api-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30478158200F10F0005A51BC /* Debug */,
+				30478159200F10F0005A51BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3047813D200F10F0005A51BC /* Project object */;
+}
